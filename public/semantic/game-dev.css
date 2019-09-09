@@ -1,0 +1,101 @@
+body {
+    background: url('/static/images/wallpaper2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.body-top,
+.navbar,
+.navbar-inverse,
+.container-fluid,
+.navbar-header,
+.collapse,
+.navbar-collapse {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* .header-top {
+    padding-top: 50px;
+} */
+
+.header-logo {
+    height: 50px;
+    width: auto;
+    display: inline-block;
+}
+
+/* .green-border {
+    border: 3px solid rgb(25, 83, 54);
+    max-width: 400px;
+    height: auto;
+    position: relative;
+    text-align: center;
+} */
+
+.green-border h1 {
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 3em;
+}
+
+.header-text a {
+    color: rgb(196, 196, 196);
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.header-text a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* .margin-top {
+    margin-top: 100px;
+} */
+
+.gameicon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("/static/gameicon.png");
+    background-size: 100%;
+}
+
+#champSize {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.ctn-dev{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 200px);
+    border : 4px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+
+}
+
+@media screen and (max-width: 400px) {
+    .ctn-dev {
+        position: static;
+        width: 85%;
+        height: 100px;
+        margin: auto;
+        margin-top: 20vh;
+    }
+}
+
+

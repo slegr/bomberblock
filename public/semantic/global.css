@@ -1,0 +1,298 @@
+body{
+    background: url('/static/images/wallpaper2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container .jumbotron{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 2px solid white;
+}
+.body-top {
+    padding-top: 300px;
+}
+
+.header-top {
+    /* margin-top: 25px; */
+    width: 400px;
+}
+
+.header-logo {
+    height: 80px;
+    width: auto;
+    display: inline-block;
+}
+
+.green-border {
+    border: 3px solid rgb(25, 83, 54);
+    position: relative;
+    text-align: center;
+}
+
+.green-border h1 {
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 4em;
+}
+
+body .navbar{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#header-job{
+    float: left;
+    display: inline-block;
+    width: 400px;
+    font-size: 4em;
+    color: white;
+    font-family: PIXEL;
+}
+.collapse, .navbar-collapse{
+    width: 100%;
+    height: 100%;
+}
+#navLinks{
+    float: left;
+    margin-top: 20px;
+}
+
+#navLinks .active a{
+    border-bottom: 3px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#navLinks a{
+    float: left;
+    /* margin-top: 20px; */
+    font-family: PIXEL;
+    font-size: 25px;
+}
+
+.header-text {
+    color: white;
+    display: inline-block;
+}
+
+.gray-margin{
+    margin-right:15px;
+    padding-right: 15px;
+    border-right: 1px solid gray;
+}
+
+.margin-top {
+    margin-top: 0px;
+}
+
+.margin-top-150 {
+    margin-top: 150px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.gameicon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("/static/gameicon.png");
+    background-size: 100%;
+}
+
+.imageSiteweb{
+    width: 100%;
+    height: auto;
+}
+
+/* ABOUT GAME PAGE */
+.mainTitle{
+    font-family: PIXEL;
+    font-size: 150px;
+    color : white;
+    text-align: center;
+}
+
+.subtitle{
+    font-family: PIXEL;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+.smallTitle{
+    font-family: PIXEL;
+    font-size: 60px;
+    color : white;
+}
+
+.black-trans-bg{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.black-bg{
+    background-color: black;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.black-bg .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-1{
+    width:400px;
+    height: 300px;
+    background-image: url("/static/images/screenshot_game_level1.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-2{
+    width:400px;
+    height: 300px;
+    background-image: url("/static/images/screenshot_game_level1_2.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container p{
+    margin: 15px;
+}
+
+.black-trans-bg .controlesCtn{
+    background-color: rgba(240, 248, 255, 0.671);
+    border-radius: 15px;
+    padding : 15px;
+}
+
+/* Used technologies */
+.usedTechCtn{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usedTechCtn div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 15px;
+    min-height: 150px;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.678);
+
+}
+
+.usedTechCtn a{
+    align-self: center;
+    justify-self: center;
+}
+
+.usedTechCtn a:hover{
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+
+.usedTechCtn div.lastRow{
+    display: flex;
+    flex-flow: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.fab, .fas{
+    color: rgba(0, 174, 255, 0.616);
+}
+.fab:hover, .fas:hover{
+    text-decoration: none;
+    /* opacity: 0.8; */
+}
+
+.fab:focus,
+.fas:focus {
+    text-decoration: none;
+    /* opacity: 0.8; */
+}
+.fa-node-js {
+    color: rgb(48, 202, 55);
+}
+
+.fa-npm {
+    color: rgb(253, 44, 44);
+}
+
+.fa-chrome {
+    color: rgb(80, 157, 202);
+}
+
+.fa-digital-ocean {
+    color: rgb(0, 162, 255);
+}
+
+.fa-html5 {
+    color: rgb(255, 51, 0);
+}
+
+.fa-css3 {
+    color: rgb(0, 153, 255);
+}
+
+.fa-js {
+    color: rgb(208, 255, 0);
+}
+/* .fa-node-js:hover {
+    color: rgb(33, 248, 44);
+}
+
+.fa-npm:hover {
+    color: rgb(253, 44, 44);
+}
+
+.fa-html5:hover{
+    color : rgb(255, 51, 0);
+}
+
+.fa-css3:hover {
+   color: rgb(0, 153, 255);
+}
+
+.fa-js:hover {
+    color: rgb(208, 255, 0);
+} */
+
+
+/* FOOTER */
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    color : white;
+    font-size: 35px;
+    font-family: PIXEL;
+}
+
+footer .container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .links-ctn{
+    font-size: 25px;
+}

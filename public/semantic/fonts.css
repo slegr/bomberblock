@@ -1,0 +1,34 @@
+/* @import url('https://fonts.googleapis.com/css?family=Kavivanar|Lato|Nova+Flat|Roboto|Ubuntu'); */
+
+/*  FONT LIST
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Kavivanar', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Nova Flat', cursive; 
+*/
+@font-face{
+    font-family: PIXEL;
+    src: url("fonts/Gamer.ttf");
+}
+
+p{
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.header-text{
+    /* font-family: 'Nova Flat', cursive; */
+    font-family: PIXEL;
+    color: white;
+}
+.header-text a{
+    color:white;
+}
+
+.jumbo-title{
+    /* font-family: 'Nova Flat', cursive; */
+    font-family: PIXEL;
+    font-size: 40px
+}
