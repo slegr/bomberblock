@@ -1,12 +1,11 @@
-let log = console.log;
-let fs = require('fs');
-let express = require('express');
-let app = express();
-let server = require('http').Server(app);
-server.listen(process.env.PORT || 8080, function () {
-    console.log('Listening on ' + server.address().port);
-});
-let io = require('socket.io').listen(server);
+const log = console.log;
+const fs = require('fs');
+const express = require('express');
+const app = express();
+const http = require('http');
+const server = http.createServer(app);
+const { Server } = require('socket.io');
+let io = new Server(server);
 let Events = require('events');
 let eventEmitter = new Events;
 module.exports = {io, eventEmitter};
@@ -53,6 +52,10 @@ app.get('/aboutgame', (request, response) => {
     let cookie_io = request.headers.cookie;
     writeToLog(ip, port, cookie_io);
     response.render('pages/aboutgame');
+});
+
+server.listen(process.env.PORT || 8080, function () {
+    console.log('Listening on ' + server.address().port);
 });
 
 /**
